@@ -30,7 +30,7 @@ const xlayer: Chain = {
 
 const config = getDefaultConfig({
   appName: "DeFi Sweeper",
-  projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || "",
+  projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || "00000000000000000000000000000000",
   chains: [xlayer, mainnet, arbitrum, base, bsc, polygon],
   transports: {
     [xlayer.id]: http("https://rpc.xlayer.tech"),
