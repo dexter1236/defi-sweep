@@ -14,6 +14,7 @@ Built for the **OKX Build X Hackathon 2026** — X Layer Arena track.
 | **Address** | [`0xb8a5a48c334eb2fa0836eaa676a35bf19247a46b`](https://www.okx.com/web3/explorer/xlayer-test/address/0xb8a5a48c334eb2fa0836eaa676a35bf19247a46b) |
 | **Network** | X Layer Testnet (chain ID **1952**) |
 | **Deploy tx** | [`0x257cce16…fbcabda`](https://www.okx.com/web3/explorer/xlayer-test/tx/0x257cce16284b0166257cbaac858d5039618e5621c47f9066ebff6c1cdfbcabda) |
+| **Agent wallet** | [`0x8bf616b27f0450ae258806f40915f8fa6e844220`](https://www.okx.com/web3/explorer/xlayer-test/address/0x8bf616b27f0450ae258806f40915f8fa6e844220) |
 | **Source** | [`contracts/SweeperRegistry.sol`](./contracts/SweeperRegistry.sol) |
 
 Every user sweep triggers an on-chain `PositionSwept` event. The contract tracks `totalSweeps`, `totalValueRecoveredScaled`, and per-user counters — all queryable on-chain.
